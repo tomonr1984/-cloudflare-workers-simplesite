@@ -3,6 +3,7 @@ import Nano from 'nano-jsx'
 import { render } from "./renderer";
 import { Notfound } from "./pages/Notfound";
 import root from "./router/root";
+import basicauth from "./router/basicauth"
 
 const app = new Hono()
 app.notFound(c => {
@@ -11,5 +12,6 @@ app.notFound(c => {
 })
 
 app.route('/', root)
+app.route('basicauth', basicauth)
 
 export default app
