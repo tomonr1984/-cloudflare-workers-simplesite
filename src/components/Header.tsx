@@ -12,11 +12,15 @@ export const Header = () => {
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-start">
+            <a class="navbar-item" href="/blog">
+              blog
+            </a>
             <a class="navbar-item" href="/about">
-              このサイトについて
+              about
             </a>
           </div>
         </div>
+
       </nav>
     </Fragment>
   )

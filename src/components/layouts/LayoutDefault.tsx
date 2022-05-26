@@ -10,7 +10,7 @@ type Props = {
 
 export const LayoutDefault = (props: Props) => {
   return (
-    <div>
+    <Fragment>
       <Helmet>
         <html lang="en" amp />
         <title>Nano JSX SSR</title>
@@ -25,6 +25,6 @@ export const LayoutDefault = (props: Props) => {
       <Header />
       {props.children}
       <Footer />
-    </div>
+    </Fragment>
   )
 }

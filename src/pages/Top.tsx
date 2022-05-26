@@ -7,10 +7,10 @@ export const Top = () => {
       <section class="hero">
         <div class="hero-body">
           <p class="title">
-            Hero title
+            Awesome SSR website
           </p>
           <p class="subtitle">
-            Hero subtitle
+            Running on the edge of a CDN
           </p>
         </div>
       </section>
