@@ -22,7 +22,12 @@ export const About = () => {
         </div>
 
         <div class="container p-5">
+          <p>
           <Link href="/404">オリジナル404ページへのリンク</Link>
+          </p>
+          <p>
+          <Link href="/basicauth">Basic認証つきページへのリンク</Link>
+          </p>
         </div>
       </section>
     </LayoutDefault>
