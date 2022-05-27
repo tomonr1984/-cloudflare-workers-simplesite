@@ -1,19 +1,7 @@
 import Nano from 'nano-jsx'
-import { useState } from 'nano-jsx/lib/hooks/useState'
 import { LayoutDefault } from '../components/layouts/LayoutDefault'
 
 export const ContactUs = () => {
-  const [name, setName] = useState('taro', 'name')
-  const [mail, setMail] = useState('', 'mail')
-  const [message, setMessage] = useState('', 'message')
-
-  const handleSubmit = (event: any) => {
-    console.log('dfjoeijfoe')
-    const formData = new FormData()
-    for (const [name, value] of formData.entries()) {
-      console.log(name + ': ' + value) // fname: John // lname: Doe
-    }
-  }
   return (
     <LayoutDefault>
       <div clsas="container">
